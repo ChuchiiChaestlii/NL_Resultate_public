@@ -2,7 +2,7 @@
 
 Windows-Desktopanwendung für Resultate, Spielverlauf und die Tabelle der Schweizer National League.
 
-Dieses Repository stellt ausschliesslich **öffentliche Downloads** bereit. Es enthält **keinen Quellcode**. Die Entwicklung findet weiterhin in einem privaten GitHub-Repository statt.
+Dieses Repository stellt **öffentliche Downloads und Lizenzhinweise** bereit. Das vollständige Entwicklungsrepository bleibt privat. Die veröffentlichten Update-Pakete und Installationen enthalten allerdings lesbare Python-Laufzeitdateien (`.py`).
 
 ## NL Resultate herunterladen
 
@@ -25,6 +25,24 @@ Nach der Installation prüft die Anwendung auf neue **öffentliche Releases**. Z
 Der Update-Mechanismus überprüft die Version, die erwartete Dateigrösse, die von GitHub angegebenen SHA-256-Prüfsummen und die erlaubten Paketdateien, bevor er ein Update installiert.
 
 > Seit **v2.3.0** ist der öffentliche Download- und Update-Kanal aktiviert. Neue Versionen erscheinen hier nach erfolgreicher Prüfung und Veröffentlichung über GitHub Actions.
+
+## Lizenz
+
+**MIT License – Copyright (c) 2026 ChuchiiChaestlii**
+
+Du darfst NL Resultate und den eigenen Programmcode **kostenlos
+verwenden, kopieren, verändern und weitergeben**, ohne um Erlaubnis zu
+fragen. Auch eine kommerzielle Nutzung ist erlaubt. Bei einer
+Weitergabe musst du den Copyright- und Lizenzhinweis beibehalten.
+
+- [MIT-Lizenztext](LICENSE)
+- [Hinweis zu Vereinslogos und Grafiken](ASSET_RIGHTS.md)
+
+**Wichtig:** Die MIT-Lizenz umfasst keine Rechte Dritter an
+SIHF-/Vereinslogos, Namen oder Marken. Bei veränderten Versionen
+müssen solche Rechte separat beachtet werden. Der Quellcode im privaten
+Entwicklungsrepository wird durch die Lizenz nicht automatisch als
+GitHub-Repository öffentlich veröffentlicht.
 
 ## Datenquelle
 
