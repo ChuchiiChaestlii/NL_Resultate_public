@@ -6,7 +6,9 @@ Dieses Repository stellt ausschliesslich **öffentliche Downloads** bereit. Es e
 
 ## NL Resultate herunterladen
 
-Öffne die **[Releases-Seite](https://github.com/ChuchiiChaestlii/NL_Resultate_public/releases)** und lade beim neuesten Release **`NL_Resultate_vX.Y.Z_Setup.exe`** herunter.
+**[Aktuelle Version herunterladen](https://github.com/ChuchiiChaestlii/NL_Resultate_public/releases/latest)** – dort die Datei **`NL_Resultate_vX.Y.Z_Setup.exe`** auswählen.
+
+Die erste öffentliche Version ist **v2.3.0**: [Setup.exe direkt herunterladen](https://github.com/ChuchiiChaestlii/NL_Resultate_public/releases/download/v2.3.0/NL_Resultate_v2.3.0_Setup.exe).
 
 Der Installer ermöglicht eine frei wählbare Installation und die reguläre Deinstallation über Windows-Einstellungen.
 
@@ -22,7 +24,7 @@ Nach der Installation prüft die Anwendung auf neue **öffentliche Releases**. Z
 
 Der Update-Mechanismus überprüft die Version, die erwartete Dateigrösse, die von GitHub angegebenen SHA-256-Prüfsummen und die erlaubten Paketdateien, bevor er ein Update installiert.
 
-> Hinweis: Die öffentliche Veröffentlichungsstrecke wird gerade eingerichtet. Solange hier keine Release-Dateien erscheinen, ist noch keine öffentliche Version freigegeben.
+> Seit **v2.3.0** ist der öffentliche Download- und Update-Kanal aktiviert. Neue Versionen erscheinen hier nach erfolgreicher Prüfung und Veröffentlichung über GitHub Actions.
 
 ## Datenquelle
 
