@@ -8,11 +8,15 @@ Dieses Repository stellt **öffentliche Downloads und Lizenzhinweise** bereit. D
 
 **[Aktuelle Version herunterladen](https://github.com/ChuchiiChaestlii/NL_Resultate_public/releases/latest)** – dort die Datei **`NL_Resultate_vX.Y.Z_Setup.exe`** auswählen.
 
-Die erste öffentliche Version ist **v2.3.0**: [Setup.exe direkt herunterladen](https://github.com/ChuchiiChaestlii/NL_Resultate_public/releases/download/v2.3.0/NL_Resultate_v2.3.0_Setup.exe).
+**Aktuelle Version v2.3.2:** [Setup.exe direkt herunterladen](https://github.com/ChuchiiChaestlii/NL_Resultate_public/releases/download/v2.3.2/NL_Resultate_v2.3.2_Setup.exe). Für spätere Versionen immer den Link **Aktuelle Version herunterladen** verwenden.
 
 Der Installer ermöglicht eine frei wählbare Installation und die reguläre Deinstallation über Windows-Einstellungen.
 
-**Voraussetzung:** Windows 10/11 und Python 3.10 oder neuer mit `pythonw.exe`. Die kleine Setup.exe installiert Python nicht selbst.
+**Voraussetzung:** Windows 10/11. Falls **Python 3.10 oder neuer** bereits vorhanden ist, wird es automatisch weiterverwendet.
+
+**Neu ab v2.3.2:** Wenn Python auf einem 64-Bit-Windows-PC fehlt, fragt das Setup nach, ob es den **offiziellen Python-3.13.12-Installer** von `python.org` herunterladen (ca. 28 MB) und für den aktuellen Benutzer installieren soll. Die Python-Datei wird anhand einer SHA-256-Prüfsumme geprüft. Der Download ist **freiwillig**, benötigt Internet und erfolgt nicht ohne ausdrückliche Zustimmung. Die Setup.exe bleibt selbst etwa 2,15 MB gross.
+
+Python ist eine eigenständige Installation und bleibt bestehen, wenn du NL Resultate deinstallierst. Unter 32-Bit-Windows muss ein passendes Python gegebenenfalls vorher separat installiert werden.
 
 ## Automatische Updates
 
