@@ -34,6 +34,30 @@ Der Installer ermöglicht eine frei wählbare Installation und die reguläre Dei
 
 Python ist eine eigenständige Installation und bleibt bestehen, wenn du NL Resultate deinstallierst. Unter 32-Bit-Windows muss ein passendes Python gegebenenfalls vorher separat installiert werden.
 
+## Screenshots
+
+Die folgenden Bilder zeigen die **echte Oberfläche von NL Resultate**, aufgenommen mit **fiktiven Beispieldaten**. Die dargestellten Spielstände, Ereignisse und Tabellenwerte sind **keine tatsächlichen oder aktuellen National-League-Daten**. Die bisherige öffentliche SIHF-Schnittstelle ist derzeit nicht mehr zugänglich.
+
+### Game-Center
+
+Spielplan und Resultate mit Vereinslogos und farblicher Hervorhebung der Ergebnisse.
+
+![NL Resultate: Game-Center mit fiktiven Beispieldaten](screenshots/game-center.png)
+
+### Spielverlauf
+
+Spielauswahl mit Detailbereich für Tore, Strafen und weitere Ereignisse.
+
+![NL Resultate: Spielverlauf mit fiktiven Beispieldaten](screenshots/spielverlauf.png)
+
+### Tabelle
+
+Tabellenansicht mit den Mannschaften, Kennzahlen und farbigen Formquadraten.
+
+![NL Resultate: Tabelle mit fiktiven Beispieldaten](screenshots/tabelle.png)
+
+*Vereinslogos und Marken gehören ihren jeweiligen Rechteinhabern; siehe [Hinweis zu Grafiken und Marken](ASSET_RIGHTS.md).*
+
 ## Automatische Updates
 
 Nach der Installation prüft die Anwendung auf neue **öffentliche Releases**. Zum Herunterladen ist **kein GitHub-Konto, Git, GitHub CLI oder eigener Token** notwendig.
