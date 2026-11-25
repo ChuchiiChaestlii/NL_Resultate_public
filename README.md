@@ -2,13 +2,29 @@
 
 Windows-Desktopanwendung für Resultate, Spielverlauf und die Tabelle der Schweizer National League.
 
+## Aktueller Hinweis zur Datenverfügbarkeit (25. November 2026)
+
+**Die SIHF hat den öffentlichen Zugriff auf die bisherige Statistik-API eingestellt.**
+Der Server liefert für Resultate und Tabellen HTTP 403 mit dem Hinweis,
+dass der öffentliche Zugriff nicht mehr verfügbar ist. **Dadurch kann
+NL Resultate derzeit keine aktuellen Resultate, Tabellen oder
+Spielverläufe aus dieser Quelle anzeigen.** Eine freigegebene Ersatzdatenquelle
+ist noch nicht eingebunden.
+
+Seit **v2.3.3** zeigt die App den Grund verständlich an und stoppt
+automatische Wiederholungsabfragen, wenn die Sperre festgestellt wird.
+Diese Version behebt **nicht** die Daten-Sperre.
+
+Für die Bereitstellung eines berechtigten SIHF-Zugangs verweist die
+SIHF ausdrücklich an **support@sihf.ch**.
+
 Dieses Repository stellt **öffentliche Downloads und Lizenzhinweise** bereit. Das vollständige Entwicklungsrepository bleibt privat. Die veröffentlichten Update-Pakete und Installationen enthalten allerdings lesbare Python-Laufzeitdateien (`.py`).
 
 ## NL Resultate herunterladen
 
 **[Aktuelle Version herunterladen](https://github.com/ChuchiiChaestlii/NL_Resultate_public/releases/latest)** – dort die Datei **`NL_Resultate_vX.Y.Z_Setup.exe`** auswählen.
 
-**Aktuelle Version v2.3.2:** [Setup.exe direkt herunterladen](https://github.com/ChuchiiChaestlii/NL_Resultate_public/releases/download/v2.3.2/NL_Resultate_v2.3.2_Setup.exe). Für spätere Versionen immer den Link **Aktuelle Version herunterladen** verwenden.
+**Aktuelle Version v2.3.3:** [Setup.exe direkt herunterladen](https://github.com/ChuchiiChaestlii/NL_Resultate_public/releases/download/v2.3.3/NL_Resultate_v2.3.3_Setup.exe). Für spätere Versionen immer den Link **Aktuelle Version herunterladen** verwenden.
 
 Der Installer ermöglicht eine frei wählbare Installation und die reguläre Deinstallation über Windows-Einstellungen.
 
